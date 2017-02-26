@@ -1,7 +1,7 @@
 # Site settings
 title: slim
 baseurl: "/slim"
-url: "http://syaning.com"
+url: "https://andrewsykim.github.io"
 
 # Build settings
 kramdown:
@@ -10,5 +10,5 @@ permalink: pretty
 
 # Third-party services
 # just leave blank to disable it
-google_analytics: 
-disqus_shortname: 
+google_analytics:
+disqus_shortname:
