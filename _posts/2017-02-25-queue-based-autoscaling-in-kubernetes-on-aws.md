@@ -48,11 +48,11 @@ spec:
                 fieldPath: metadata.namespace
         resources:
           requests:
-            memory: "200Mi"
-            cpu: "50m"
+            memory: "100Mi"
+            cpu: "25m"
           limits:
-            memory: "200Mi"
-            cpu: "100m"
+            memory: "100Mi"
+            cpu: "25m"
         volumeMounts:
           - name: ssl-certs
             mountPath: /etc/ssl/certs/ca-certificates.crt
