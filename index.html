@@ -1,21 +1,71 @@
----
-layout: default
----
-<div class="home">
-	<section>
-		<h2 class="smallcap">about</h2>
-		<p>Reliability Engineer at <a href="https://www.wattpad.com">Wattpad</a>. Making distributed systems scalable, resilient and reliable! Always looking to contribute to great open source projects! </p>
-	</section>
-	<section>
-		<h2 class="smallcap">posts</h2>
-		<ul class="post-list">
-			{% for post in site.posts limit:5 %}
-			<li>
-				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</li>
-			{% endfor %}
-		</ul>
-		<p><a href="{{ "/archives/" | prepend: site.baseurl }}">view more...</a></p>
-	</section>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Andrew Sy Kim, Software Engineer at Google.">
+    <title>Andrew Sy Kim</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋</text></svg>">
+</head>
+<body>
+    <main class="container">
+        <header class="profile">
+            <h1>Andrew Sy Kim</h1>
+            <p class="role">Software Engineer at Google working on GKE. <br>KubeRay maintainer, ex-Kubernetes maintainer.</p>
+            
+            <nav class="social-links">
+                <a href="https://github.com/andrewsykim" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://x.com/a_sykim" target="_blank" rel="noopener noreferrer">Twitter/X</a>
+                <a href="https://www.linkedin.com/in/andrew-sy-kim-638512a5/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </nav>
+        </header>
+
+        <section class="projects">
+            <h2>Projects & Publications</h2>
+            <ul class="project-list">
+                <li>
+                    <a href="https://cloud.google.com/blog/products/containers-kubernetes/ray-on-gke-new-features-for-ai-scheduling-and-scaling" target="_blank" rel="noopener noreferrer">
+                        Evolving Ray and Kubernetes together for the future of distributed AI and ML
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/mASxYpfWUNU" target="_blank" rel="noopener noreferrer">
+                        Advanced Model Serving Techniques with Ray on Kubernetes
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/bbKpBTGf_AU" target="_blank" rel="noopener noreferrer">
+                        Building Scalable AI Infrastructure with Kuberay and Kubernetes
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/9S5WznGnIpE" target="_blank" rel="noopener noreferrer">
+                        Scaling Ray Train to 10K Kubernetes Nodes on GKE
+                    </a>
+                </li>
+                <li>
+                    <a href="https://kubernetes.io/blog/2024/05/20/completing-cloud-provider-migration/" target="_blank" rel="noopener noreferrer">
+                        Completing the largest migration in Kubernetes history
+                    </a>
+                </li>
+                <li>
+                    <a href="https://cloud.google.com/blog/products/containers-kubernetes/using-kuberay-and-kueue-to-orchestrate-ray-applications-in-gke" target="_blank" rel="noopener noreferrer">
+                        Advanced scheduling for AI/ML with Ray and Kueue
+                    </a>
+                </li>
+                <li>
+                    <a href="https://kubernetes.io/blog/2022/12/30/advancements-in-kubernetes-traffic-engineering/" target="_blank" rel="noopener noreferrer">
+                        Advancements in Kubernetes Traffic Engineering
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/9TRzfJrU35M" target="_blank" rel="noopener noreferrer">
+                        Kubernetes DoS Protection at Google Scale
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
