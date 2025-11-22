@@ -82,19 +82,45 @@ h1 {
 
 .project-list {
     list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
 }
 
 .project-list li {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
-.project-list a {
-    color: var(--link-color);
+.project-card {
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
-    font-weight: 500;
+    height: 100%;
 }
 
-.project-list a:hover {
+.project-thumb {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover .project-thumb {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.project-title {
+    color: var(--link-color);
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.project-card:hover .project-title {
     text-decoration: underline;
 }
 
