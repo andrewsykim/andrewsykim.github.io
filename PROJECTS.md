@@ -2,6 +2,10 @@
 
 URL: https://cloud.google.com/blog/products/containers-kubernetes/ray-on-gke-new-features-for-ai-scheduling-and-scaling
 
+# Deploy DeepSeek‑R1 with vLLM and Ray Serve on Kubernetes
+
+URL: https://www.anyscale.com/blog/deepseek-vllm-ray-google-kubernetes
+
 # Advanced Model Serving Techniques with Ray on Kubernetes
 
 URL: https://youtu.be/mASxYpfWUNU 
