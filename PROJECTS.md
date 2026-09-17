@@ -1,3 +1,19 @@
+# Bringing gVisor sandboxes to distributed Ray clusters
+
+URL: https://cloud.google.com/blog/products/containers-kubernetes/gvisor-sandboxes-for-ray-clusters-on-gke 
+
+# Announcing Native Sandboxing in Ray
+
+URL: https://www.anyscale.com/blog/announcing-native-sandboxing-in-ray
+
+# Evolving and Scaling Ray for the Next Generation of AI Workloads (Ray Summit 2026)
+
+URL: https://www.youtube.com/watch?v=07XyCSjIwqQ
+
+# Scaling Frontier AI with Ray on Kubernetes (Ray Summit 2026)
+
+URL: https://www.youtube.com/watch?v=srmgiZdIpXk
+
 # Evolving Ray and Kubernetes together for the future of distributed AI and ML
 
 URL: https://cloud.google.com/blog/products/containers-kubernetes/ray-on-gke-new-features-for-ai-scheduling-and-scaling
