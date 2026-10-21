@@ -1,3 +1,7 @@
+# Announcing Ray support for PyTorch on Google TPUs
+
+URL: https://www.anyscale.com/blog/announcing-ray-support-native-pytorch-google-tpu
+
 # Bringing gVisor sandboxes to distributed Ray clusters
 
 URL: https://cloud.google.com/blog/products/containers-kubernetes/gvisor-sandboxes-for-ray-clusters-on-gke 
